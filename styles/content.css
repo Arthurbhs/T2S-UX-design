@@ -1,0 +1,38 @@
+
+#main_image {
+   position: fixed;
+   top: 70px;
+   left: 60%;
+}
+#main_image img{
+    width: 500px;
+    height: 500px;
+}
+
+.modal{
+    height: 400px;
+    width: 700px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    padding: 15px;
+}
+
+.modal img{
+    background-color: black;
+    height: 200px;
+    width: 150px;
+   
+}
+
+.modal h{
+    font-size: 60px;
+}
+
+
+.modal b{
+    color: rgb(51, 178, 217);
+}

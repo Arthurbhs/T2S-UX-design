@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+header{
+    display: flex;
+    align-items: center ;
+    column-gap:  64px;
+    padding:   10px;
+    padding-top: 5px;
+    width: 100%;
+    max-width: 1440px;
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    z-index: 2;
+}
+header h {
+ font-size: 38px;
+font-family: 'Kanit', sans-serif;
+letter-spacing: 3px;
+position: relative;
+left: -50px;
+}
+
+.icons{
+    width: 25px;
+    height: auto;
+    position: relative;
+    left: -70px;  
+    top: -10px;
+    margin: -20px;
+}
+
+#face{
+    width: 35px;
+    height: auto;
+    top: -4px;
+}
+
+#face:hover{
+    box-shadow: 0px 0px 20px rgba(0, 149, 255, 0.5);
+}
+
+#linck:hover{
+    box-shadow: 0px 0px 20px rgba(0, 213, 255, 0.5);
+}
+
+#insta:hover{
+    box-shadow: 0px 0px 20px rgba(255, 0, 183, 0.5);
+}
+
+
+
+
+
+header img{
+
+    width: 40px;
+    height: auto;
+    position: relative;
+    left: 10px;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+
+    list-style: none;
+}
+
+.link{
+    position: relative;
+    left: 300px; 
+    color: rgb(248, 248, 248);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+    
+}
+
+.link:hover {
+
+    color: rgb(181, 181, 181);
+}
